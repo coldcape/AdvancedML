@@ -1,0 +1,269 @@
+Running on hpc7
+Tue Feb 11 15:22:28 2025       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 525.125.06   Driver Version: 525.125.06   CUDA Version: 12.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Quadro RTX 8000     Off  | 00000000:41:00.0 Off |                  Off |
+| 28%   33C    P0    65W / 260W |      0MiB / 49152MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Quadro RTX 8000     Off  | 00000000:C1:00.0 Off |                  Off |
+| 29%   31C    P0    43W / 260W |      0MiB / 49152MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Running on hpc7
+Tue Feb 11 15:39:23 2025       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 525.125.06   Driver Version: 525.125.06   CUDA Version: 12.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Quadro RTX 8000     Off  | 00000000:41:00.0 Off |                  Off |
+| 28%   33C    P0    65W / 260W |      0MiB / 49152MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Quadro RTX 8000     Off  | 00000000:C1:00.0 Off |                  Off |
+| 29%   31C    P0    43W / 260W |      0MiB / 49152MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Python 3.12.4
+CIFAR-10 dataset loaded.
+ Training data shape: (50000, 32, 32, 3)
+ Test data shape: (10000, 32, 32, 3)
+
+Training on a single GPU (or CPU if GPU is not available)...
+Setup time (within train_mlp): 5.57 seconds
+
+Starting training...
+Epoch 01 | Test Loss: 2.6353 | Test Acc: 45.21%
+Epoch 02 | Test Loss: 2.1590 | Test Acc: 48.37%
+Epoch 03 | Test Loss: 1.8986 | Test Acc: 48.58%
+Epoch 04 | Test Loss: 1.7371 | Test Acc: 52.04%
+Epoch 05 | Test Loss: 1.6767 | Test Acc: 52.37%
+Epoch 06 | Test Loss: 1.6388 | Test Acc: 52.83%
+Epoch 07 | Test Loss: 1.6340 | Test Acc: 51.96%
+Epoch 08 | Test Loss: 1.5813 | Test Acc: 54.34%
+Epoch 09 | Test Loss: 1.5920 | Test Acc: 54.11%
+Epoch 10 | Test Loss: 1.5817 | Test Acc: 54.79%
+Epoch 11 | Test Loss: 1.6114 | Test Acc: 54.47%
+Epoch 12 | Test Loss: 1.5866 | Test Acc: 55.29%
+Epoch 13 | Test Loss: 1.5691 | Test Acc: 56.76%
+Epoch 14 | Test Loss: 1.5616 | Test Acc: 57.26%
+Epoch 15 | Test Loss: 1.6152 | Test Acc: 57.18%
+Epoch 16 | Test Loss: 1.6787 | Test Acc: 57.25%
+Epoch 17 | Test Loss: 1.7062 | Test Acc: 57.43%
+Epoch 18 | Test Loss: 1.7695 | Test Acc: 56.85%
+Epoch 19 | Test Loss: 1.8877 | Test Acc: 57.19%
+Epoch 20 | Test Loss: 1.9815 | Test Acc: 56.72%
+Epoch 21 | Test Loss: 2.0509 | Test Acc: 57.05%
+Epoch 22 | Test Loss: 2.1828 | Test Acc: 57.34%
+Epoch 23 | Test Loss: 2.2501 | Test Acc: 57.84%
+Epoch 24 | Test Loss: 2.3601 | Test Acc: 58.36%
+Epoch 25 | Test Loss: 2.5453 | Test Acc: 58.25%
+Epoch 26 | Test Loss: 2.7218 | Test Acc: 57.03%
+Epoch 27 | Test Loss: 2.7717 | Test Acc: 57.57%
+Epoch 28 | Test Loss: 2.7801 | Test Acc: 58.14%
+Epoch 29 | Test Loss: 2.9427 | Test Acc: 57.83%
+Epoch 30 | Test Loss: 3.0164 | Test Acc: 57.75%
+Epoch 31 | Test Loss: 3.0745 | Test Acc: 58.36%
+Epoch 32 | Test Loss: 3.1180 | Test Acc: 57.96%
+Epoch 33 | Test Loss: 3.1351 | Test Acc: 58.13%
+Epoch 34 | Test Loss: 3.2028 | Test Acc: 58.97%
+Epoch 35 | Test Loss: 3.2284 | Test Acc: 58.80%
+Epoch 36 | Test Loss: 3.2791 | Test Acc: 58.58%
+Epoch 37 | Test Loss: 3.3407 | Test Acc: 58.07%
+Epoch 38 | Test Loss: 3.4156 | Test Acc: 58.15%
+Epoch 39 | Test Loss: 3.4230 | Test Acc: 58.54%
+Epoch 40 | Test Loss: 3.4721 | Test Acc: 58.65%
+Epoch 41 | Test Loss: 3.5399 | Test Acc: 58.37%
+Epoch 42 | Test Loss: 3.5223 | Test Acc: 59.14%
+Epoch 43 | Test Loss: 3.5357 | Test Acc: 59.17%
+Epoch 44 | Test Loss: 3.6144 | Test Acc: 58.62%
+Epoch 45 | Test Loss: 3.6069 | Test Acc: 58.94%
+Epoch 46 | Test Loss: 3.6446 | Test Acc: 58.98%
+Epoch 47 | Test Loss: 3.6585 | Test Acc: 58.78%
+Epoch 48 | Test Loss: 3.6438 | Test Acc: 58.85%
+Epoch 49 | Test Loss: 3.6626 | Test Acc: 58.79%
+Epoch 50 | Test Loss: 3.6609 | Test Acc: 59.22%
+Epoch 51 | Test Loss: 3.6529 | Test Acc: 59.27%
+Epoch 52 | Test Loss: 3.6754 | Test Acc: 59.49%
+Epoch 53 | Test Loss: 3.6732 | Test Acc: 59.47%
+Epoch 54 | Test Loss: 3.6955 | Test Acc: 59.69%
+Epoch 55 | Test Loss: 3.7299 | Test Acc: 59.15%
+Epoch 56 | Test Loss: 3.7729 | Test Acc: 59.04%
+Epoch 57 | Test Loss: 3.7737 | Test Acc: 59.11%
+Epoch 58 | Test Loss: 3.7615 | Test Acc: 59.26%
+Epoch 59 | Test Loss: 3.7686 | Test Acc: 58.79%
+Epoch 60 | Test Loss: 3.7861 | Test Acc: 58.85%
+Epoch 61 | Test Loss: 3.7930 | Test Acc: 58.88%
+Epoch 62 | Test Loss: 3.8004 | Test Acc: 59.21%
+Epoch 63 | Test Loss: 3.8169 | Test Acc: 59.01%
+Epoch 64 | Test Loss: 3.8052 | Test Acc: 58.94%
+Epoch 65 | Test Loss: 3.8187 | Test Acc: 59.18%
+Epoch 66 | Test Loss: 3.8137 | Test Acc: 59.05%
+Epoch 67 | Test Loss: 3.8146 | Test Acc: 59.30%
+Epoch 68 | Test Loss: 3.8337 | Test Acc: 59.25%
+Epoch 69 | Test Loss: 3.8359 | Test Acc: 59.17%
+Epoch 70 | Test Loss: 3.8400 | Test Acc: 59.25%
+Epoch 71 | Test Loss: 3.8512 | Test Acc: 58.98%
+Epoch 72 | Test Loss: 3.8461 | Test Acc: 59.06%
+Epoch 73 | Test Loss: 3.8366 | Test Acc: 59.27%
+Epoch 74 | Test Loss: 3.8459 | Test Acc: 59.35%
+Epoch 75 | Test Loss: 3.8521 | Test Acc: 59.19%
+Epoch 76 | Test Loss: 3.8435 | Test Acc: 59.04%
+Epoch 77 | Test Loss: 3.8459 | Test Acc: 59.13%
+Epoch 78 | Test Loss: 3.8370 | Test Acc: 59.23%
+Epoch 79 | Test Loss: 3.8372 | Test Acc: 59.17%
+Epoch 80 | Test Loss: 3.8403 | Test Acc: 59.44%
+Epoch 81 | Test Loss: 3.8397 | Test Acc: 59.42%
+Epoch 82 | Test Loss: 3.8429 | Test Acc: 59.39%
+Epoch 83 | Test Loss: 3.8427 | Test Acc: 59.42%
+Epoch 84 | Test Loss: 3.8447 | Test Acc: 59.40%
+Epoch 85 | Test Loss: 3.8432 | Test Acc: 59.23%
+Epoch 86 | Test Loss: 3.8457 | Test Acc: 59.38%
+Epoch 87 | Test Loss: 3.8474 | Test Acc: 59.44%
+Epoch 88 | Test Loss: 3.8504 | Test Acc: 59.28%
+Epoch 89 | Test Loss: 3.8470 | Test Acc: 59.25%
+Epoch 90 | Test Loss: 3.8457 | Test Acc: 59.42%
+Epoch 91 | Test Loss: 3.8512 | Test Acc: 59.33%
+Epoch 92 | Test Loss: 3.8495 | Test Acc: 59.24%
+Epoch 93 | Test Loss: 3.8505 | Test Acc: 59.23%
+Epoch 94 | Test Loss: 3.8490 | Test Acc: 59.26%
+Epoch 95 | Test Loss: 3.8526 | Test Acc: 59.24%
+Epoch 96 | Test Loss: 3.8508 | Test Acc: 59.34%
+Epoch 97 | Test Loss: 3.8499 | Test Acc: 59.41%
+Epoch 98 | Test Loss: 3.8516 | Test Acc: 59.52%
+Epoch 99 | Test Loss: 3.8514 | Test Acc: 59.55%
+Epoch 100 | Test Loss: 3.8520 | Test Acc: 59.49%
+Epoch 101 | Test Loss: 3.8533 | Test Acc: 59.49%
+Epoch 102 | Test Loss: 3.8525 | Test Acc: 59.56%
+Epoch 103 | Test Loss: 3.8520 | Test Acc: 59.49%
+Epoch 104 | Test Loss: 3.8526 | Test Acc: 59.50%
+Epoch 105 | Test Loss: 3.8531 | Test Acc: 59.51%
+Epoch 106 | Test Loss: 3.8531 | Test Acc: 59.51%
+Epoch 107 | Test Loss: 3.8534 | Test Acc: 59.53%
+Epoch 108 | Test Loss: 3.8539 | Test Acc: 59.50%
+Epoch 109 | Test Loss: 3.8541 | Test Acc: 59.48%
+Epoch 110 | Test Loss: 3.8547 | Test Acc: 59.48%
+Epoch 111 | Test Loss: 3.8546 | Test Acc: 59.52%
+Epoch 112 | Test Loss: 3.8548 | Test Acc: 59.48%
+Epoch 113 | Test Loss: 3.8550 | Test Acc: 59.49%
+Epoch 114 | Test Loss: 3.8556 | Test Acc: 59.49%
+Epoch 115 | Test Loss: 3.8557 | Test Acc: 59.50%
+Epoch 116 | Test Loss: 3.8556 | Test Acc: 59.49%
+Epoch 117 | Test Loss: 3.8553 | Test Acc: 59.44%
+Epoch 118 | Test Loss: 3.8552 | Test Acc: 59.40%
+Epoch 119 | Test Loss: 3.8545 | Test Acc: 59.41%
+Epoch 120 | Test Loss: 3.8543 | Test Acc: 59.48%
+Epoch 121 | Test Loss: 3.8544 | Test Acc: 59.42%
+Epoch 122 | Test Loss: 3.8545 | Test Acc: 59.45%
+Epoch 123 | Test Loss: 3.8548 | Test Acc: 59.44%
+Epoch 124 | Test Loss: 3.8548 | Test Acc: 59.47%
+Epoch 125 | Test Loss: 3.8546 | Test Acc: 59.46%
+Epoch 126 | Test Loss: 3.8545 | Test Acc: 59.42%
+Epoch 127 | Test Loss: 3.8543 | Test Acc: 59.45%
+Epoch 128 | Test Loss: 3.8542 | Test Acc: 59.45%
+Epoch 129 | Test Loss: 3.8541 | Test Acc: 59.45%
+Epoch 130 | Test Loss: 3.8543 | Test Acc: 59.48%
+Epoch 131 | Test Loss: 3.8545 | Test Acc: 59.48%
+Epoch 132 | Test Loss: 3.8544 | Test Acc: 59.45%
+Epoch 133 | Test Loss: 3.8545 | Test Acc: 59.44%
+Epoch 134 | Test Loss: 3.8547 | Test Acc: 59.43%
+Epoch 135 | Test Loss: 3.8548 | Test Acc: 59.43%
+Epoch 136 | Test Loss: 3.8548 | Test Acc: 59.44%
+Epoch 137 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 138 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 139 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 140 | Test Loss: 3.8549 | Test Acc: 59.44%
+Epoch 141 | Test Loss: 3.8549 | Test Acc: 59.44%
+Epoch 142 | Test Loss: 3.8548 | Test Acc: 59.43%
+Epoch 143 | Test Loss: 3.8548 | Test Acc: 59.43%
+Epoch 144 | Test Loss: 3.8548 | Test Acc: 59.43%
+Epoch 145 | Test Loss: 3.8548 | Test Acc: 59.44%
+Epoch 146 | Test Loss: 3.8548 | Test Acc: 59.43%
+Epoch 147 | Test Loss: 3.8550 | Test Acc: 59.43%
+Epoch 148 | Test Loss: 3.8550 | Test Acc: 59.43%
+Epoch 149 | Test Loss: 3.8550 | Test Acc: 59.43%
+Epoch 150 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 151 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 152 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 153 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 154 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 155 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 156 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 157 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 158 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 159 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 160 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 161 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 162 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 163 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 164 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 165 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 166 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 167 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 168 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 169 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 170 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 171 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 172 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 173 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 174 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 175 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 176 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 177 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 178 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 179 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 180 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 181 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 182 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 183 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 184 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 185 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 186 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 187 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 188 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 189 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 190 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 191 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 192 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 193 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 194 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 195 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 196 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 197 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 198 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 199 | Test Loss: 3.8549 | Test Acc: 59.43%
+Epoch 200 | Test Loss: 3.8549 | Test Acc: 59.43%
+Total training (epochs) time: 702.68 seconds
+
+Time to load data (script start -> data load end): 0.37 seconds
+Time spent in train_mlp function: 708.25 seconds
+
+Total script execution time: 708.62 seconds
+Using Python from: /cluster/datastore/anaconda3/bin/python
+Python 3.12.4
+Using Python from: /cluster/datastore/anaconda3/bin/python
+Python 3.12.4

@@ -1,0 +1,28 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"python/3.9"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "python/3.9"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+/var/spool/slurmd/job04417/slurm_script: line 20: python: command not found
+/var/spool/slurmd/job04417/slurm_script: line 27: python: command not found
+Lmod has detected the following error: The following module(s) are unknown:
+"python/3.9"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "python/3.9"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+slurmstepd: error: *** JOB 4420 ON hpc7 CANCELLED AT 2025-02-11T15:56:56 ***
+slurmstepd: error: *** JOB 4421 ON hpc7 CANCELLED AT 2025-02-11T15:57:04 ***
