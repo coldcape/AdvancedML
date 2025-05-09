@@ -1,0 +1,31 @@
+Using Python from: /cluster/datastore/anaconda3/bin/python
+Python 3.12.4
+JAX devices: [CudaDevice(id=0), CudaDevice(id=1)]
+Model state replicated to devices.
+Sharded x shape: (2, 128, 32, 32, 3)
+Sharded y shape: (2, 128)
+Epoch 1 complete - Accuracy: 0.3114 - Time: 41.46s
+Epoch 2 complete - Accuracy: 0.3482 - Time: 37.68s
+Epoch 3 complete - Accuracy: 0.3515 - Time: 25.47s
+Epoch 4 complete - Accuracy: 0.3615 - Time: 25.12s
+Epoch 5 complete - Accuracy: 0.3670 - Time: 25.40s
+Epoch 6 complete - Accuracy: 0.3785 - Time: 25.17s
+Epoch 7 complete - Accuracy: 0.3843 - Time: 25.13s
+Epoch 8 complete - Accuracy: 0.3853 - Time: 25.24s
+Epoch 9 complete - Accuracy: 0.3852 - Time: 29.09s
+Epoch 10 complete - Accuracy: 0.3816 - Time: 25.26s
+Epoch 11 complete - Accuracy: 0.3805 - Time: 25.59s
+Epoch 12 complete - Accuracy: 0.3882 - Time: 29.80s
+Epoch 13 complete - Accuracy: 0.3878 - Time: 26.15s
+Epoch 14 complete - Accuracy: 0.3874 - Time: 25.20s
+Epoch 15 complete - Accuracy: 0.3870 - Time: 25.29s
+Epoch 16 complete - Accuracy: 0.3867 - Time: 26.94s
+Epoch 17 complete - Accuracy: 0.3866 - Time: 25.17s
+Epoch 18 complete - Accuracy: 0.3823 - Time: 25.61s
+Epoch 19 complete - Accuracy: 0.3838 - Time: 29.44s
+Epoch 20 complete - Accuracy: 0.3866 - Time: 25.09s
+Epoch 21 complete - Accuracy: 0.3812 - Time: 25.19s
+Epoch 22 complete - Accuracy: 0.3844 - Time: 26.66s
+Epoch 23 complete - Accuracy: 0.3828 - Time: 25.18s
+Epoch 24 complete - Accuracy: 0.3818 - Time: 29.30s
+Epoch 25 complete - Accuracy: 0.3849 - Time: 25.16s

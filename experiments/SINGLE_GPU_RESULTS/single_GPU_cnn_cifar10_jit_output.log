@@ -1,0 +1,28 @@
+Using Python from: /cluster/datastore/anaconda3/bin/python
+Python 3.12.4
+Epoch 1 complete - Accuracy: 0.5912 - Time: 6.35s
+Epoch 2 complete - Accuracy: 0.6340 - Time: 2.18s
+Epoch 3 complete - Accuracy: 0.6559 - Time: 2.12s
+Epoch 4 complete - Accuracy: 0.6749 - Time: 2.13s
+Epoch 5 complete - Accuracy: 0.6745 - Time: 2.18s
+Epoch 6 complete - Accuracy: 0.6734 - Time: 2.34s
+Epoch 7 complete - Accuracy: 0.6697 - Time: 2.10s
+Epoch 8 complete - Accuracy: 0.6625 - Time: 2.34s
+Epoch 9 complete - Accuracy: 0.6672 - Time: 2.09s
+Epoch 10 complete - Accuracy: 0.6653 - Time: 2.08s
+Epoch 11 complete - Accuracy: 0.6675 - Time: 2.09s
+Epoch 12 complete - Accuracy: 0.6676 - Time: 2.08s
+Epoch 13 complete - Accuracy: 0.6711 - Time: 2.10s
+Epoch 14 complete - Accuracy: 0.6553 - Time: 2.10s
+Epoch 15 complete - Accuracy: 0.6678 - Time: 2.09s
+Epoch 16 complete - Accuracy: 0.6627 - Time: 2.12s
+Epoch 17 complete - Accuracy: 0.6572 - Time: 2.13s
+Epoch 18 complete - Accuracy: 0.6622 - Time: 2.11s
+Epoch 19 complete - Accuracy: 0.6563 - Time: 2.10s
+Epoch 20 complete - Accuracy: 0.6597 - Time: 2.11s
+Epoch 21 complete - Accuracy: 0.6709 - Time: 2.11s
+Epoch 22 complete - Accuracy: 0.6582 - Time: 2.10s
+Epoch 23 complete - Accuracy: 0.6601 - Time: 2.11s
+Epoch 24 complete - Accuracy: 0.6535 - Time: 2.11s
+Epoch 25 complete - Accuracy: 0.6584 - Time: 2.12s
+Training complete - Total Time: 57.53s
